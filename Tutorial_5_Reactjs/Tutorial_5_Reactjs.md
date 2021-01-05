@@ -62,11 +62,11 @@ Como he comentado el punto de entrada a la aplicación es el fichero scr/index.j
 
 A continuación vemos el código auto-generado que corresponde al componente principal: 
 
-![s](https://i.imgur.com/91TmpMO.png)
+![s](https://i.imgur.com/f5KcDi4.png)
 
 Antes de continuar desarrollando el ejemplo voy eliminar unas cuantas líneas de este componente para dejarlo, por ahora, lo más simple posible:
 
-![s](https://i.imgur.com/91TmpMO.png)
+![s](https://i.imgur.com/M86Spog.png)
 ![s](https://i.imgur.com/7fnWTBw.png)
 
 En la primera línea import React… se está importando la librería React y la clase Component de la cual van a heredar todos los componentes que se creen mediante clases. Éstas requieren del método render() para poder funcionar.
