@@ -123,7 +123,10 @@ Métodos de actualización:
 
 Métodos de desmontaje:
 
- - componentWillUnmount(): es el único método que interviene en el desmontaje de un componente, es invocado justo antes de que el componente se desmonte, es ideal para realizar operaciones de limpieza como listeners de eventos o temporizadores. Continuando con el ejemplo, voy a modificar el componente App para asignarle un estado inicial que almacene un array con varios objetos "user". Para ello sobreescribiremos el método constructor del componente asignando al estado inicial (this.state) el array de usuarios.
+ - componentWillUnmount(): es el único método que interviene en el desmontaje de un componente, es invocado justo antes de que el componente se desmonte, es ideal para realizar operaciones de limpieza como listeners de eventos o temporizadores. 
+
+
+Continuando con el ejemplo, voy a modificar el componente App para asignarle un estado inicial que almacene un array con varios objetos "user". Para ello sobreescribiremos el método constructor del componente asignando al estado inicial (this.state) el array de usuarios.
 Finalmente, en el método render renderizará un componente del tipo UserList, al cual se le pasa el estado a través de la prop users. Quedando el componente tal que así: 
 
 ![s](https://i.imgur.com/x61HXk4.png)
